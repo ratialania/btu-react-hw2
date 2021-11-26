@@ -1,0 +1,46 @@
+.counter{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 200px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.plus{
+    background-color: #4CAF50;
+}
+
+.minus{
+    background-color: #f44336;
+}
+
+input{
+    display: block;
+    margin:  20px auto;
+    padding: 20px 28px;
+    width: 400px;
+    text-align: center;
+    border: none;
+    background-color: #555555;
+    font-size: 30px;
+    color: white;
+    outline: none;
+
+}
+
+input::placeholder{
+    color: #fff;
+}
