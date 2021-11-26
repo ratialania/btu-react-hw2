@@ -8,6 +8,8 @@
     margin-left: 10px;
     cursor: pointer;
     width: 200px;
+    border: 1px solid;
+    transition: all ease .4s;
 }
 
 h2{
@@ -23,8 +25,19 @@ p{
     background-color: #4CAF50;
 }
 
+.plus:hover{
+    border-color: #4CAF50;
+    background-color: #fff;
+    color: #000;
+}
 .minus{
     background-color: #f44336;
+}
+
+.minus:hover{
+    border-color: #f44336;
+    background-color: #fff;
+    color: #000;
 }
 
 input{
